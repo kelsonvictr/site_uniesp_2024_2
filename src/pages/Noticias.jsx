@@ -12,7 +12,7 @@ const Noticias = () => {
         const fetchNoticias = async () => {
             try {
                 const response = await axios.get(url)
-                setNoticias(response)
+                setNoticias(response.data)
             } catch (error) {
                 console.error("Erro ao buscar notícias ", error)
             }
