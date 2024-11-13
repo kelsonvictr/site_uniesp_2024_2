@@ -27,7 +27,7 @@ const Navbar = () => {
           </IconButton>
           <Box sx={{ display: { xs: 'none', md: 'flex' }, ml: 15 }}>
             {/* Box com display controlado por media queries para esconder/mostrar itens em diferentes tamanhos de tela */}
-            <Button color="inherit" component={Link} to="/a-faculdade">
+            <Button color="inherit" component={Link} to="/faculdade">
               A Faculdade
             </Button>
             <Button color="inherit" component={Link} to="/dpo-lgpd">
