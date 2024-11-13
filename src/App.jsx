@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import BannerAd from './components/BannerAd'
 import Inicial from './pages/Inicial'
+import Faculdade from './pages/Faculdade'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
 
           <Routes>
             <Route path="/" element={<Inicial />} />
+            <Route path="/a-faculdade" element={<Faculdade />} />
           </Routes>
 
         </Box>
